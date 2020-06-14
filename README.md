@@ -13,3 +13,10 @@ In order to run this application, please first make sure you have `npm` installe
 - Inception of project
   - Commited boiler plater code for standard ElectronJS app.
   - Added `monaco-editor` JS package for development purposes.
+
+#### 2020/6/14 v1.0
+
+![#29a329](https://via.placeholder.com/15/29a329/000000?text=+) `Issues`
+
+- Project [Kanban board](https://github.com/SK-Apps/SKNotes/projects/1) created
+- Installed mardown package from npm `npm install --save-dev markdown`
