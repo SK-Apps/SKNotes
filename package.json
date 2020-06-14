@@ -1,0 +1,22 @@
+{
+  "name": "sknotes",
+  "version": "1.0.0",
+  "description": "A markdown app that is built using ElectronJS to help with notetaking and documentation.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SK-Apps/SKNotes.git"
+  },
+  "author": "Kevin Chen, Sebastian Baechler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SK-Apps/SKNotes/issues"
+  },
+  "homepage": "https://github.com/SK-Apps/SKNotes#readme",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}
