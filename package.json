@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SK-Apps/SKNotes#readme",
   "devDependencies": {
-    "electron": "^9.0.4"
+    "electron": "^9.0.4",
+    "monaco-editor": "^0.20.0"
   }
 }
