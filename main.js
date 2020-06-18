@@ -13,35 +13,6 @@ function createWindow() {
     },
   });
 
-  /* let menu = Menu.buildFromTemplate([
-    {
-      label: "File",
-      submenu: [
-        {
-          label: "New File",
-          accelerator: "CommandOrControl+N",
-        },
-        { label: "New Window", accelerator: "CommandOrControl+Shift+N" },
-        { type: "separator" },
-        { label: "Open File", accelerator: "CommandOrControl+O" },
-        { label: "Open Folder", accelerator: "CommandOrControl+Shift+O" },
-        { type: "separator" },
-        { label: "Save", accelerator: "CommandOrControl+S" },
-        { label: "Save As", accelerator: "CommandOrControl+Shift+S" },
-        { type: "separator" },
-        { label: "Exit", role: "quit" },
-      ],
-    },
-    {
-      label: "Edit",
-      submenu: [
-        { label: "Copy", role: "Copy", accelerator: "CommandOrControl+C" },
-        { label: "Paste", role: "Paste", accelerator: "CommandOrControl+V" },
-      ],
-    },
-  ]);
-  Menu.setApplicationMenu(menu); */
-
   // Loads the index.html of the app
   win.loadFile("src/index.html");
   //win.webContents.openDevTools();
