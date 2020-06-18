@@ -1,16 +1,19 @@
 const { app, BrowserWindow, Menu } = require("electron");
+const path = require("path");
 
 // Creates the browser window
 function createWindow() {
   let win = new BrowserWindow({
     width: 800,
     height: 600,
+    frame: false,
     webPreferences: {
+      preload: path.join(__dirname, "preload.js"),
       nodeIntegration: true,
     },
   });
 
-  let menu = Menu.buildFromTemplate([
+  /* let menu = Menu.buildFromTemplate([
     {
       label: "File",
       submenu: [
@@ -37,10 +40,11 @@ function createWindow() {
       ],
     },
   ]);
-  Menu.setApplicationMenu(menu);
+  Menu.setApplicationMenu(menu); */
 
   // Loads the index.html of the app
   win.loadFile("src/index.html");
+  //win.webContents.openDevTools();
 }
 
 /*
