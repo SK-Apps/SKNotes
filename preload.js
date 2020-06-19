@@ -48,6 +48,7 @@ window.addEventListener("DOMContentLoaded", () => {
     backgroundColor: customTitlebar.Color.fromHex("#262427"),
     icon: url.format(path.join(__dirname, "/images", "/icon.png")),
     menu: menu,
+    itemBackgroundColor: customTitlebar.Color.fromHex("#595959"),
   });
 
   const replaceText = (selector, text) => {
