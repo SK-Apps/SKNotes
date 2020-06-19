@@ -33,6 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
         { label: "Cut", role: "cut", accelerator: "CommandOrControl+X" },
         { label: "Copy", role: "copy", accelerator: "CommandOrControl+C" },
         { label: "Paste", role: "paste", accelerator: "CommandOrControl+V" },
+        { type: "separator" },
         {
           label: "Select All",
           role: "selectAll",
