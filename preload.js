@@ -30,8 +30,12 @@ window.addEventListener("DOMContentLoaded", () => {
     new remote.MenuItem({
       label: "Edit",
       submenu: [
-        { label: "Copy", role: "Copy", accelerator: "CommandOrControl+C" },
-        { label: "Paste", role: "Paste", accelerator: "CommandOrControl+V" },
+        { label: "Undo", role: "undo", accelerator: "CommandOrControl+Z" },
+        { label: "Redo", role: "redo", accelerator: "CommandOrControl+Y" },
+        { type: "separator" },
+        { label: "Cut", role: "cut", accelerator: "CommandOrControl+X" },
+        { label: "Copy", role: "copy", accelerator: "CommandOrControl+C" },
+        { label: "Paste", role: "paste", accelerator: "CommandOrControl+V" },
       ],
     })
   );
