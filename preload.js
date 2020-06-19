@@ -10,10 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
     new remote.MenuItem({
       label: "File",
       submenu: [
-        {
-          label: "New File",
-          accelerator: "CommandOrControl+N",
-        },
+        { label: "New File", accelerator: "CommandOrControl+N" },
         { label: "New Window", accelerator: "CommandOrControl+Shift+N" },
         { type: "separator" },
         { label: "Open File", accelerator: "CommandOrControl+O" },
@@ -36,6 +33,11 @@ window.addEventListener("DOMContentLoaded", () => {
         { label: "Cut", role: "cut", accelerator: "CommandOrControl+X" },
         { label: "Copy", role: "copy", accelerator: "CommandOrControl+C" },
         { label: "Paste", role: "paste", accelerator: "CommandOrControl+V" },
+        {
+          label: "Select All",
+          role: "selectAll",
+          accelerator: "CommandOrControl+A",
+        },
       ],
     })
   );

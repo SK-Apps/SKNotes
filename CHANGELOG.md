@@ -5,7 +5,7 @@
 ![#29a329](https://via.placeholder.com/15/29a329/000000?text=+) `Issues`
 
 - New Jira board!
-- Working on Edit menu, test
+- Working on Edit menu
 
 #### 2020/6/17 v1.0
 
