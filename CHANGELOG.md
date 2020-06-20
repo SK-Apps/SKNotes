@@ -1,5 +1,11 @@
 # Change Log
 
+#### 2020/6/19 v1.0
+
+![#29a329](https://via.placeholder.com/15/29a329/000000?text=+) `Issues`
+
+- Settings menu item added to File menu, opens up `settings.json` in VS Code.
+
 #### 2020/6/18 v1.0
 
 ![#29a329](https://via.placeholder.com/15/29a329/000000?text=+) `Issues`

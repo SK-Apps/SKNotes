@@ -2,6 +2,8 @@ const path = require("path");
 const url = require("url");
 const customTitlebar = require("custom-electron-titlebar");
 const { remote } = require("electron");
+const fs = require("fs");
+const { shell, spawn } = require("child_process");
 
 window.addEventListener("DOMContentLoaded", () => {
   // Menu bar creation
@@ -18,6 +20,20 @@ window.addEventListener("DOMContentLoaded", () => {
         { type: "separator" },
         { label: "Save", accelerator: "CommandOrControl+S" },
         { label: "Save As", accelerator: "CommandOrControl+Shift+S" },
+        { type: "separator" },
+        {
+          label: "Preferences",
+          click() {
+            // Production path have to be changed here
+            const openSeetingsInVSC = spawn("cmd.exe", [
+              "/c",
+              "code ./settings.json",
+            ]);
+            openSeetingsInVSC.stderr.on("data", (data) => {
+              console.error(data.toString());
+            });
+          },
+        },
         { type: "separator" },
         { label: "Exit", role: "quit" },
       ],
