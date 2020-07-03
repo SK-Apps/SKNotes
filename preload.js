@@ -58,6 +58,12 @@ window.addEventListener("DOMContentLoaded", () => {
       ],
     })
   );
+  menu.append(
+    new remote.MenuItem({
+      label: "Help",
+      submenu: [{ label: "View License" }, { label: "About" }],
+    })
+  );
 
   // Titlebar/menu bar creation
   new customTitlebar.Titlebar({

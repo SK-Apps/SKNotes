@@ -1,5 +1,12 @@
 # Change Log
 
+#### 2020/7/2 v1.0
+
+![#29a329](https://via.placeholder.com/15/29a329/000000?text=+) `Issues`
+
+- Added 'Help' menu and added 'View License' and 'About' in its submemnu
+  - TODO: Implement actions submenu items
+
 #### 2020/6/19 v1.0
 
 ![#29a329](https://via.placeholder.com/15/29a329/000000?text=+) `Issues`
