@@ -6,6 +6,7 @@
 
 - Added 'Help' menu and added 'View License' and 'About' in its submemnu
   - TODO: Implement actions submenu items
+- Playing around with Monaco Editor
 
 #### 2020/6/19 v1.0
 
