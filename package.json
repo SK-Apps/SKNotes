@@ -18,7 +18,7 @@
   "homepage": "https://github.com/SK-Apps/SKNotes#readme",
   "devDependencies": {
     "custom-electron-titlebar": "^3.2.2-hotfix62",
-    "electron": "^9.0.4",
+    "electron": "^11.5.0",
     "markdown": "^0.5.0",
     "monaco-editor": "^0.20.0"
   }
